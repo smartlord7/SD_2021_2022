@@ -1,5 +1,3 @@
-package sockets;
-
 import java.net.MulticastSocket;
 import java.net.DatagramPacket;
 import java.net.InetAddress;

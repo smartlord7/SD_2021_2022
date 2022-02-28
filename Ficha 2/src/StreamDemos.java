@@ -1,6 +1,3 @@
-package streams;
-
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -54,6 +51,7 @@ public class StreamDemos {
 		JustAClass myobj = new JustAClass(8, (float) 3.3);
 		oos.writeObject(myobj);
 		myobj.setA(9);
+		oos.reset();
 		oos.writeObject(myobj);
 		myobj.setA(10);
 		oos.reset();
